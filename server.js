@@ -1,6 +1,5 @@
 const express = require('express');
 const path = require('path');
-const helmet = require('helmet');
 
 const app = express();
 const PORT = 443
@@ -8,15 +7,6 @@ const PORT = 443
 // Servir arquivos estáticos da pasta 'dist'
 app.use(express.static(path.join(__dirname, 'dist')));
 
-app.use((req, res, next) => {
-  if (req.secure) {
-    // Solicitação HTTPS
-    next();
-  } else {
-    // Redirecionar para HTTPS
-    res.redirect('https://andrerodriguescorreia.com.br:443');
-  }
-});
 
 
 
