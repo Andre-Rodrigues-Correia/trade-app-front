@@ -1,0 +1,118 @@
+{
+    "header": {
+        "groups": "GRUPOS",
+        "myGroups": "MEUS GRUPOS",
+        "createGroup": "CRIAR GRUPO",
+        "tutorials": "TUTORIAIS",
+        "myInformations": "Minhas informações",
+        "logout": "Sair"
+    },
+    "home": {
+        "featuredGroups": "Grupos em Destaque"
+    },
+    "supportedLanguages": {
+        "english": "Inglês",
+        "portuguese": "Português"
+    },
+    "users": {
+        "name": "Nome do usuário",
+        "userId": "Id do usuário",
+        "phone": "Telefone do usuário",
+        "mail": "E-mail do usuário",
+        "birthday": "Data de nascimento do usuário",
+        "expirationDate": "Data de expiração da assinatura",
+        "informations": "Informações do usuário"
+    },
+    "trades": {
+        "title": "Criar novo trade",
+        "investments": "Investimentos",
+        "name": "Nome do trade",
+        "description": "Descrição do trade",
+        "status": "Status",
+        "visible": "Visível",
+        "image": "Imagem",
+        "buyValue": "Valor de compra",
+        "sellValue": "Valor de venda"
+    },
+    "groups": {
+        "name": "Nome do grupo",
+        "description": "Descrição do grupo",
+        "price": "Preço do grupo",
+        "image": "Imagem do grupo",
+        "owner": "Administrador do grupo",
+        "mail": "E-mail do administrador",
+        "informations": "Informações do grupo",
+        "manageGroup": "Gerenciar grupo",
+        "notPrice": "Preço não informando, verficar com administrador"
+    },
+    "generic": {
+        "buy": "COMRPAR",
+        "wait": "AGUARDAR",
+        "sell": "VENDA",
+        "all": "TODOS",
+        "description": "Descrição",
+        "login": "ENTRAR",
+        "signUp": "CADASTRE-SE",
+        "name": "Nome",
+        "mail": "E-mail",
+        "confirmMail": "Confirme seu e-mail",
+        "phone": "Telefone",
+        "password": "Senha",
+        "actions": "Ações",
+        "birthday": "Data de nascimento",
+        "username": "Nome de usuário",
+        "trades": "Trades",
+        "coin": "R$"
+    },
+    "buttons": {
+        "edit": "Editar",
+        "delete": "Excluir",
+        "enter": "Entrar",
+        "save": "Salvar",
+        "cancel": "Cancelar",
+        "editExpirationDate": "Editar data de expiração",
+        "addNewUser": "Adicionar novo usuário",
+        "add": "Adicionar",
+        "pause": "Pausar Inscrição",
+        "createTrade": "Criar Trade",
+        "editTrade": "Editar Trade",
+        "subscribes": "Inscritos",
+        "informations": "Insformações",
+        "trades": "Trades"
+    },
+    "messages": {
+        "signUpText": "Não tem cadastro ainda ? clique",
+        "loginText": "Já tem conta ? clique",
+        "here": "aqui",
+        "ConfirmCode": "Confirmação de e-mail",
+        "ConfirmCodeDescription": "Por favor, insira o código recebido por e-mail para confirmar sua conta.",
+        "code": "Código",
+        "confirm": "Confirmar",
+        "resendCode": "Reenviar",
+        "confirmDelete": "Realmente deseja excluir ?",
+        "notGroupAccess": "Você não tem acesso a esse grupo",
+        "notGroupAccessDescription": "Para ter acesso a esse grupo entre com contato com o administrador informando seu nome de usuário"
+    },
+    "auth": {
+        "isNotAutententicated": "Você precista estar auntenticado para acessar esse conteudo, por favor faça o login",
+        "isNotGroupAccess": "Você não tem acesso a esse grupo",
+        "newUser": "Usuário cadastrado com sucesso!"
+    },
+    "erros": {
+        "nameIsRequired": "Digite seu nome",
+        "mailIsRequired": "Digite seu e-mail",
+        "phoneIsRequired": "Digite seu telefone",
+        "usernameIsRequired": "Digite seu nome de usuário",
+        "passwordIsRequired": "Digite sua senha",
+        "birthdayIsRequired": "Seleciona sua data de aniversário",
+        "usernameExists": "Esse nome de usuário já existe",
+        "mailExists": "Esse e-mail já existe",
+        "weakPassword": "Senha fraca, digite uma mais forte",
+        "userAlreadyExists": "Usuário com esse e-mail, telefone ou username já está cadastrado",
+        "mustBeOfLegalAge": "Idade deve ser maior que 18 anos",
+        "mailOrPasswordIncorrect": "E-mail ou senha inválidos",
+        "userNotFound": "Usuário não encontrado com esse e-mail",
+        "internalServerError": "Erro interno, entre em contato conosco através do menu contatos"
+
+    }
+}

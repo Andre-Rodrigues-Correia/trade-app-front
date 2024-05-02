@@ -1,0 +1,46 @@
+[
+    {
+        "_id": "123",
+        "owner": "123456",
+        "groupId": "1",
+        "name": "trade name",
+        "description": "alguma coisa",
+        "status": "buy",
+        "visible": true,
+        "createdDate": "fwsfgweg",
+        "trades": [
+            {"image": "https://i.redd.it/h1165blyuue61.jpg", "buyValue": 300.00, "sellValue": null},
+            {"image": "https://game-assets.fut.gg/2024/cards/futgg-cards/117631383.webp?quality=90&width=500", "buyValue": 300.00, "sellValue": null},
+            {"image": "https://game-assets.fut.gg/2024/cards/futgg-cards/117631383.webp?quality=90&width=500", "buyValue": 300.00, "sellValue": null},
+            {"image": "https://game-assets.fut.gg/2024/cards/futgg-cards/117631383.webp?quality=90&width=500","buyValue": 300.00, "sellValue": null}
+        ]
+    },
+    {
+        "_id": "1234",
+        "owner": "123456",
+        "groupId": "1",
+        "name": "trade name",
+        "description": "alguma coisa",
+        "status": "sell",
+        "visible": true,
+        "createdDate": "Date.now()",
+        "trades": [
+            {"image": "https://i.redd.it/h1165blyuue61.jpg", "buyValue": 300.00, "sellValue": null},
+            {"image": "https://game-assets.fut.gg/2024/cards/futgg-cards/117631383.webp?quality=90&width=500", "buyValue": 300.00, "sellValue": null}
+        ]
+    },
+    {
+        "_id": "12345",
+        "owner": "123456",
+        "groupId": "1",
+        "name": "trade name",
+        "description": "alguma coisa",
+        "status": "wait",
+        "visible": true,
+        "createdDate": "Date.now()",
+        "trades": [
+            {"image": "https://i.redd.it/h1165blyuue61.jpg", "buyValue": 300.00, "sellValue": 600},
+            {"image": "https://game-assets.fut.gg/2024/cards/futgg-cards/117631383.webp?quality=90&width=500", "buyValue": 300.00, "sellValue": 700}
+        ]
+    }
+]

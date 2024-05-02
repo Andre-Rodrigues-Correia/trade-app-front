@@ -1,0 +1,10 @@
+[
+    {
+        "_id": "1",
+        "name": "Turma do Didier",
+        "ownerId": "123456",
+        "description": "Grupo de trade do Didier Drogba, venha ficar milionário no UT",
+        "price": 19.99,
+        "image": "https://img.a.transfermarkt.technology/portrait/big/3924-1683633427.jpg?lm=1"
+    }
+]

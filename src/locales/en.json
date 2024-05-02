@@ -1,0 +1,117 @@
+{
+    "header": {
+        "groups": "GROUPS",
+        "myGroups": "MY GROUPS",
+        "createGroup": "CREATE GROUP",
+        "tutorials": "TUTORIALS"
+    },
+    "home": {
+        "featuredGroups": "Featured Groups"
+    },
+    "supportedLanguages": {
+        "english": "English",
+        "portuguese": "Portuguese"
+    },
+    "users": {
+        "name": "User name",
+        "userId": "User Id",
+        "phone": "User phone number",
+        "mail": "User mail",
+        "birthday": "Date of birth",
+        "expirationDate": "Subscription expiration date",
+        "informations": "user informations",
+        "myInformations": "My Informations",
+        "logout": "Logout"
+    },
+    "trades": {
+        "title": "Create new trade",
+        "investments": "Investments",
+        "name": "Trade name",
+        "description": "Trade description",
+        "status": "Status",
+        "visible": "Visible",
+        "image": "Image",
+        "buyValue": "Purchase price",
+        "sellValue": "Sale value"
+    },
+    "groups": {
+        "name": "Group Name",
+        "description": "Group description",
+        "price": "Group price",
+        "image": "Group image",
+        "informations": "Group informations",
+        "owner": "Group administrator",
+        "mail": "Administrator mail",
+        "manageGroup": "Manage Group",
+        "notPrice": "Price not stated, check with administrator"
+    },
+    "generic": {
+        "buy": "BUY",
+        "wait": "WAIT",
+        "sell": "SELL",
+        "all": "ALL",
+        "description": "description",
+        "login": "LOGIN",
+        "signUp": "SIGN UP",
+        "name": "Name",
+        "mail": "E-mail",
+        "confirmMail": "Confirm you e-mail",
+        "phone": "Phone number",
+        "password": "Password",
+        "actions": "Actions",
+        "birthday": "Date of birth",
+        "username": "Nome de usuário",
+        "trades": "Trades",
+        "coin": "$"
+    },
+    "buttons": {
+        "edit": "Edit",
+        "delete": "Delete",
+        "enter": "Enter",
+        "save": "Save",
+        "cancel": "Cancel",
+        "editExpirationDate": "Edit expiration date",
+        "addNewUser": "Add new user",
+        "add": "Add",
+        "pause": "Pause subscription",
+        "createTrade": "Create Trade",
+        "editTrade": "Edit Trade",
+        "subscribes": "subscribes",
+        "informations": "Informations",
+        "trades": "Trades"
+    },
+    "messages": {
+        "signUpText": "Don't have a registration yet? click",
+        "loginText": "Do you already have an account? click",
+        "here": "here",
+        "ConfirmCode": "Email confirmation",
+        "ConfirmCodeDescription": "Please enter the code received by email to confirm your account.",
+        "code": "Code",
+        "confirm": "Confirm",
+        "resendCode": "resend",
+        "confirmDelete": "Do you really want to delete?",
+        "notGroupAccess": "You do not have access to this group",
+        "notGroupAccessDescription": "To access this group, contact the administrator with your username."
+    },
+    "auth": {
+        "isNotAutententicated": "You need to be authenticated to access this content, please log in",
+        "isNotGroupAccess": "You do not have access to this group",
+        "newUser": "User created with success!"
+    },
+    "erros": {
+        "nameIsRequired": "type your name",
+        "mailIsRequired": "type your mail",
+        "phoneIsRequired": "type your phone number",
+        "usernameIsRequired": "type your username",
+        "passwordIsRequired": "type your password",
+        "birthdayIsRequired": "Select you date of birth",
+        "usernameExists": "this username already registered",
+        "mailExists": "this mail already registered",
+        "weakPassword": "weak password, enter a stronger one",
+        "userAlreadyExists": "User with this email, telephone or username is already registered",
+        "mustBeOfLegalAge": "Age must be over 18 years old",
+        "mailOrPasswordIncorrect": "Invalid mail or passwor",
+        "userNotFound": "User not found with this email",
+        "internalServerError": "Internal error, please contact us via the contacts menu"
+    }
+}

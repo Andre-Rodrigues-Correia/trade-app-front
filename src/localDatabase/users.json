@@ -1,0 +1,18 @@
+[
+    {
+        "_id": "123456",
+        "name": "Didier Drogba",
+        "mail": "drogba@mail.com",
+        "password": "chelsea",
+        "username": "drogba9",
+        "phone": "99999999999"
+    },
+    {
+        "_id": "78910",
+        "name": "Fernando Torres",
+        "mail": "torres@mail.com",
+        "password": "elnino",
+        "username": "elnibo9",
+        "phone": "99999999998"
+    }
+]
