@@ -78,7 +78,8 @@
         "editTrade": "Editar Trade",
         "subscribes": "Inscritos",
         "informations": "Insformações",
-        "trades": "Trades"
+        "trades": "Trades",
+        "gotIt": "Entendi!"
     },
     "messages": {
         "signUpText": "Não tem cadastro ainda ? clique",
@@ -114,5 +115,24 @@
         "userNotFound": "Usuário não encontrado com esse e-mail",
         "internalServerError": "Erro interno, entre em contato conosco através do menu contatos"
 
+    },
+    "privacy": {
+        "policy": "Politica de privacidade",
+        "summary": "Nós da futgroups respeitamos a sua privacidade e estamos empenhados em proteger suas informações pessoais.",
+        "informationCollectedTitle": "Informações coletadas",
+        "informationCollected": [
+            "Informações pessoais que você nos fornece diretamente, como nome, endereço de e-mail, etc.",
+            "Informações automaticamente coletadas quando você interage com nossos serviços, como endereço IP, tipo de navegador, etc."
+        ],
+        "howWeUseInformationTitle": "Por que usamos essas informações",
+        "howWeUseInformation": [
+            "Para fornecer e manter nossos serviços.",
+            "Para personalizar sua experiência.",
+            "Para cumprir obrigações legais."
+        ],
+        "sharingInformation": "Não compartilhamos suas informações pessoais com terceiros, exceto quando necessário para fornecer nossos serviços ou cumprir obrigações legais.",
+        "security": "Empregamos medidas de segurança para proteger suas informações contra acesso não autorizado ou divulgação.",
+        "yourRights": "Você tem o direito de acessar, corrigir, atualizar ou excluir suas informações pessoais.",
+        "contact": "Se tiver dúvidas sobre esta política de privacidade, entre em contato conosco em andrecorreiati@gmail.com."
     }
 }

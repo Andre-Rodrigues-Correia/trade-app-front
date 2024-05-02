@@ -14,6 +14,7 @@ import MyGroupsView from '@/views/MyGroupsView.vue'
 import UserInfos from '@/views/UserInfos.vue'
 import Unauthorized from '@/views/UnauthorizedView.vue'
 import PublicHomeView from '@/views/PublicHomeView.vue'
+import PrivacyPolicyView from '@/views/PrivacyPolicyView.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -92,6 +93,11 @@ const router = createRouter({
       path: '/unauthorized',
       name: 'unauthorized',
       component: Unauthorized
+    },
+    {
+      path: '/policy',
+      name: 'policy',
+      component: PrivacyPolicyView
     }
   ]
 })
