@@ -3,7 +3,7 @@ const path = require('path');
 
 const app = express();
 const PORT = 443
-
+const host = 'https://andrerodriguescorreia.com.br'
 // Servir arquivos estáticos da pasta 'dist'
 app.use(express.static(path.join(__dirname, 'dist')));
 
@@ -16,6 +16,6 @@ app.get('/', (req, res) => {
 });
 
 // Iniciar o servidor
-app.listen(PORT, () => {
+app.listen(PORT, host, () => {
   console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
