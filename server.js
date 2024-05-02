@@ -14,15 +14,10 @@ app.use((req, res, next) => {
     next();
   } else {
     // Redirecionar para HTTPS
+    console.log(req.url)
     res.redirect('https://' + req.headers.host + req.url);
   }
 });
-
-app.use(helmet.hsts({
-  maxAge: 31536000, // 1 ano em segundos
-  includeSubDomains: true,
-  preload: true
-}));
 
 
 
