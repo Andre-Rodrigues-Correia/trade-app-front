@@ -71,7 +71,7 @@ export default {
       statusOptions: [
         {text: 'Comprar', value: 'buy'},
         {text: 'Vender', value: 'sell'},
-        {text: 'Aguarde', value: 'stop'}
+        {text: 'Aguarde', value: 'wait'}
       ],
       userId: this.$route.params.userId,
       groupId: this.$route.params.groupId,
