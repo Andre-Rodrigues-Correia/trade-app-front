@@ -16,7 +16,7 @@ import Unauthorized from '@/views/UnauthorizedView.vue'
 import PublicHomeView from '@/views/PublicHomeView.vue'
 
 const router = createRouter({
-  history: createWebHistory('/'),
+  history: createWebHistory(),
   routes: [
     {
       path: '/:userId',
