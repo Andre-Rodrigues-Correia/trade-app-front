@@ -14,8 +14,7 @@ app.use((req, res, next) => {
     next();
   } else {
     // Redirecionar para HTTPS
-    console.log(req.url)
-    res.redirect('https://' + req.headers.host + req.url);
+    res.redirect('andrerodriguescorreia.com.br:443');
   }
 });
 
