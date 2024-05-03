@@ -57,7 +57,6 @@ export default {
             const user = userService.getPayloadToken(token);
             await this.setUser(user);
             await this.setAuth(true);
-            console.log(user)
             return this.$router.push({ name: 'home', params: {userId:  user._id} });
             }
       }

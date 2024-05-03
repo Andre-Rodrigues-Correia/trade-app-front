@@ -30,7 +30,6 @@
         // Aqui você pode adicionar lógica para confirmar o código
         if (this.code === '123456') {
           // Código correto, redirecionar para a próxima tela
-          console.log('Código confirmado');
           // Aqui você pode redirecionar o usuário para a próxima tela
         } else {
           // Código incorreto, exibir mensagem de erro

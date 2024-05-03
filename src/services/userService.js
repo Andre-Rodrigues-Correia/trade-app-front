@@ -33,7 +33,6 @@ const userService = {
           }
         try {
             const response = await axios.get(`${BASE_URL}/${userId}`, config);
-            console.log(response)
             return response.data.message;     
         } catch (error) {
             console.error(error);
@@ -45,7 +44,6 @@ const userService = {
     createNewUser: async (user) => {
         
         try {
-            console.log(user)
             const response = await axios.post(BASE_URL, user);
             return response.data.message;    
         } catch (error) {
@@ -62,7 +60,6 @@ const userService = {
               },
           }
         const response = await axios.put(`${BASE_URL}/${user._id}`, user, config)
-        console.log(response);
         return response.data.message
     },
 
@@ -74,7 +71,6 @@ const userService = {
               },
           }
         const response = await axios.get(BASE_URL, config);
-        console.log(response);
         return response.data.message;
     },
 

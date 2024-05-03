@@ -57,8 +57,6 @@ import { v4 as uuidv4 } from 'uuid';
                     const storageRef = ref(storage, path);
                     let imageUrl = ''
                     await uploadBytes(storageRef, this.image).then((snapshot) => {
-                        console.log('uploaded')
-                        console.log(snapshot)
                     });
 
                     await getDownloadURL(storageRef).then((res) => {

@@ -69,11 +69,9 @@ export default {
       this.$router.push({ name: destiny })
     },
     async navigateMenu(){
-      console.log(this.userIsLogged)
       if(this.userIsLogged){
         const token = userService.getToken();
         const userInfos = await userService.getPayloadToken(token);
-        console.log(userInfos)
         return this.$router.push({ name: 'home', params: {userId:  userInfos._id} });
       }
       return this.$router.push({ name: 'publicHome'});

@@ -33,7 +33,6 @@ import userService from './services/userService';
       await this.$store.dispatch('user/setUser', {/*passar user retornado do login (payload)*/});
       const teste = this.$store.state.user.user;
       await this.verifyUserConnected()
-      console.log(teste)
     },
     methods: {
       ...mapActions('user', ['setUser']),

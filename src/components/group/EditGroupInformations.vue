@@ -58,9 +58,7 @@ import gorupService from '@/services/groupService';
             async getData(){
                 //const group = gorupService.getGroupById(this.groupId);//errado
                 try {
-                    console.log(this.userId)
                     const group = await gorupService.getGroupById(this.groupId);
-                    console.log(group)
                     if(group){
                         this.existisGroup = true
                         this.group = group

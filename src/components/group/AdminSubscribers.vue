@@ -152,7 +152,6 @@ import UserInformationsModal from '../modals/UserInformationsModal.vue';
                 this.selectedUser = null;
             },
             async addSubscriber(){
-                console.log(this.selectedUser)
                 if(!this.selectedUser){
                     alert('messages.usernotselected')
                 }
@@ -162,13 +161,10 @@ import UserInformationsModal from '../modals/UserInformationsModal.vue';
                     return
                 }
 
-                console.log(this.groupId)
 
                 const existsUserAccess = await subscribeService.verifyUserAccessGroup(this.groupId, this.selectedUser._id)
 
                 
-
-                console.log(existsUserAccess)
 
                 if(existsUserAccess){
                     this.selectedUser = null,

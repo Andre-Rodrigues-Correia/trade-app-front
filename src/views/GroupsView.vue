@@ -43,7 +43,6 @@ import gorupService from "@/services/groupService"
       LoadingSpinner
     },
     async created(){
-      console.log(this.$store.state.trades.trades)
       await this.getData();
     },
     mounted() {

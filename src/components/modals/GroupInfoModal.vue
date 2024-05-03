@@ -115,14 +115,11 @@ import LoadingSpinner from "@/components/generic/LoadingSpinner.vue"
           const isOwner = await groupService.verifyUserIsOwnerGroup(this.group._id, this.userId);
 
           if(userAcess){
-            console.log('is sub')
-            console.log(userAcess)
+
             return true
           }
 
           if(isOwner){
-            console.log('is owener')
-            console.log(isOwner)
             return true
           }
 

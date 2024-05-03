@@ -63,7 +63,6 @@ export default {
                         this.user = user
                         this.editedUser = {...user}
                     }
-                console.log(this.user)
             } catch (error) {
                 console.error(error.message)
                 alert(this.$t('erros.internalServerError'))

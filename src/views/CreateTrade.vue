@@ -98,7 +98,6 @@ export default {
       this.trade.trades.splice(index, 1);
     },
     async saveTrade() {
-      console.log(this.trade);
 
       const trade = {
         ...this.trade,
@@ -118,7 +117,6 @@ export default {
       const file = event.target.files[0];
       if (file) {
         const urlImage = await this.uploadImage(file);
-        console.log(urlImage)
         this.trade.trades[index].image = urlImage;
 
       }
@@ -132,8 +130,7 @@ export default {
           const storageRef = ref(storage, path);
           let imageUrl = ''
           await uploadBytes(storageRef, file).then((snapshot) => {
-              console.log('uploaded')
-              console.log(snapshot)
+
             });
 
           await getDownloadURL(storageRef).then((res) => {

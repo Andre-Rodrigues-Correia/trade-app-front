@@ -64,7 +64,6 @@ import userService from '@/services/userService';
                     this.groupInformations = await gorupService.getGroupById(this.groupId);
                     this.userInforations = await userService.getUserById(this.userId);
                     this.ownerInformations = await await userService.getUserById(this.groupInformations.ownerId);
-                    console.log(this.ownerInformations)
                     this.isLoading = false
                 } catch (error) {
                     console.error(error.message);

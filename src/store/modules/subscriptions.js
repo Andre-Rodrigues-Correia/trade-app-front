@@ -26,7 +26,6 @@ const actions = {
     async setSubscription({ commit }, groupId){
         try {
             const subscriptions = await subscribeService.getSubscribesForGroupId(groupId);
-            console.log(subscriptions)
             commit('SET_SUBSCRIPTIONS', subscriptions);
         } catch (error) {
             console.error('Error in set subscriptions', error);

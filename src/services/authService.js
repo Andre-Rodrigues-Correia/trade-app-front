@@ -38,13 +38,13 @@ const authService = {
 
             const token = response.data.message;
 
-            console.log(token)
+
 
             localStorage.setItem('token', token);
 
             const userInfos = this.getPayloadToken(token);
 
-            console.log(userInfos)
+
 
             return userInfos;
         } catch (error) {

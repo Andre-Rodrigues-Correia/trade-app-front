@@ -39,11 +39,9 @@ import { mapActions } from 'vuex';
         // Lógica para mostrar informações do usuário
         this.$router.push({ name: 'userInfos'});
         this.menuOpen = false;
-        console.log("Mostrando informações do usuário");
       },
       showMyGroup() {
         // Lógica para mostrar o grupo do usuário
-        console.log("Mostrando o grupo do usuário");
       },
       async logout() {
         authService.logout();

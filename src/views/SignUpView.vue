@@ -70,7 +70,6 @@ import userService from '@/services/userService';
           const newUser = await userService.createNewUser(user);
           alert(this.$t('auth.newUser')) 
         } catch (error) {
-          console.log(error)
           alert(this.$t(`erros.${error.response.data.message}`))
         }
       },

@@ -26,7 +26,6 @@ const tradeService = {
 
       const response = await axios.post(BASE_URL, trade, config)
 
-      console.log(response)
     },
 
     getTradeById: async (groupId) => {
@@ -39,7 +38,6 @@ const tradeService = {
 
       const response = await axios.get(`${BASE_URL}/${groupId}`, config)
 
-      console.log(response)
       return response.data.message
     },
 
@@ -52,7 +50,6 @@ const tradeService = {
           }
 
       const response = await axios.put(`${BASE_URL}/${trade._id}`, trade, config)
-      console.log(response);
       return response.data.message
     },
 
@@ -64,7 +61,6 @@ const tradeService = {
               },
           }
       const response = await axios.delete(`${BASE_URL}/${tradeId}`, config)
-      console.log(response);
       return response.data.message
     },
 
@@ -77,7 +73,6 @@ const tradeService = {
         }
       const response = await axios.get(`${BASE_URL}/${groupId}/group`, config)
 
-      console.log(response)
       return response.data.message
     },
 

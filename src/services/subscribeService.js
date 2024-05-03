@@ -26,7 +26,7 @@ const subscribeService = {
             const response = await axios.post(`${BASE_URL}`, subscription, config);
 
         
-            console.log(response)
+
             return response.data.message;
         } catch (error) {
             console.error('Error in login');
@@ -44,7 +44,6 @@ const subscribeService = {
 
         try {
             const response = await axios.get(`${BASE_URL}/${groupId}`, config)
-            console.log(response);
             return response.data.message;
         }catch( error ){
             console.error('Error in getSubscribesForGroupId');
@@ -61,7 +60,6 @@ const subscribeService = {
               },
           }
         const response = await axios.put(`${BASE_URL}/${subscription._id}`, subscription, config)
-        console.log(response);
         return response.data.message
     },
 
@@ -73,7 +71,6 @@ const subscribeService = {
               },
           }
         const response = await axios.delete(`${BASE_URL}/${subscriptionId}`, config)
-        console.log(response);
         return response.data.message
     },
 
@@ -102,7 +99,6 @@ const subscribeService = {
               },
           }
         const response = await axios.get(`${BASE_URL}/${groupId}/${userId}`, config);
-          console.log(response)
         return response.data.message
       },
 

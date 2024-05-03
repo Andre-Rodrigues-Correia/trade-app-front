@@ -29,7 +29,6 @@ const gorupService = {
 
         const response = await axios.get(`${BASE_URL}/${groupId}/${userId}`, config);
 
-        console.log(response)
 
         return response.data.message.isOwner;
       },
@@ -44,9 +43,7 @@ const gorupService = {
         }
         const response = await axios.get(`${BASE_URL}/${groupId}/group`, config);
         const group = response.data.message;
-        console.log(group)
         if(group) {
-          console.log(group)
           return group
         }
 
@@ -63,7 +60,6 @@ const gorupService = {
         }
 
         const response = await axios.put(`${BASE_URL}/${group._id}`, group, config)
-        console.log(response);
         return response.data.message
       },
 
@@ -86,9 +82,7 @@ const gorupService = {
             },
         }
 
-        console.log(id)
         const response = await axios.get(`${BASE_URL}/${id}`, config);
-        console.log(response);
         return response.data.message;
       },
 
@@ -103,7 +97,6 @@ const gorupService = {
         }
 
         const response = await axios.get(BASE_URL, config);
-        console.log(response);
         return response.data.message;
       },
 
