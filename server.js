@@ -8,8 +8,8 @@ const app = express();
 const PORT = 21185
 
 const options = {
-  cert: fs.readFileSync('../cerificados/cert.pem'),
-  key: fs.readFileSync('../cerificados/privkey.pem')
+  cert: fs.readFileSync('../certificados/cert.pem'),
+  key: fs.readFileSync('../certificados/privkey.pem')
 };
 
 // Servir arquivos estáticos da pasta 'dist'
