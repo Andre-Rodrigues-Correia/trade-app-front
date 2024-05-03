@@ -6,6 +6,8 @@ const fs = require('fs');
 
 const app = express();
 const PORT = 21185
+const HOST = 'https://andrerodriguescorreia.com.br'
+
 
 const options = {
   cert: fs.readFileSync('../certificados/cert.pem'),
@@ -28,6 +30,6 @@ app.get('/', (req, res) => {
 //   console.log(`Servidor rodando em http://localhost:${PORT}`);
 // });
 
-https.createServer(options, app).listen(443, () => {
+https.createServer(options, app).listen(443, HOST, () => {
   console.log('Servidor HTTPS rodando na porta 443');
 });
