@@ -31,6 +31,12 @@
     </div>
 </template>
 
+<script>
+export default {
+    name: 'policy'
+}
+</script>
+
 
 <style scoped>
 .content{
