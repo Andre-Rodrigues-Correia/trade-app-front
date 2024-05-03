@@ -32,16 +32,35 @@
 </template>
 
 <script>
+import userService from '@/services/userService';
+import { mapActions } from 'vuex';
 export default {
     data(){
         return {
 
         }
     },
+    async created(){
+        await this.verifyUserConnected();
+    },
     methods: {
+        ...mapActions('user', ['setUser']),
+        ...mapActions('auth', ['setAuth']),
+
         navidate(detiny){
             this.$router.push({ name: detiny })
-        }
+        },
+
+        async verifyUserConnected(){
+            const token = userService.getToken();
+            if(token){
+            const user = userService.getPayloadToken(token);
+            await this.setUser(user);
+            await this.setAuth(true);
+            console.log(user)
+            return this.$router.push({ name: 'home', params: {userId:  user._id} });
+            }
+      }
     }
 }
 

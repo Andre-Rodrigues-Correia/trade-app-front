@@ -79,7 +79,7 @@ import gorupService from "@/services/groupService"
       },
       closeModal(){
         this.showModal = false;
-      }
+      },
     }
   }
 </script>
