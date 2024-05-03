@@ -37,13 +37,16 @@
         <div class="content-trade">
             <div v-for="trade in filteredTrades" :key="trade._id.$oid">
                 <div class="trade-card" v-if="trade.visible || isOwnerGroup">
-                    <h2>{{ trade.name }}</h2>
-                    <p>
-                        {{ $t('generic.description') }}: {{ trade.description }}
-                    </p>
+                    <div class="title">
+                        <h2>{{ trade.name }}</h2>
+                        <p>
+                            {{ $t('generic.description') }}: {{ trade.description }}
+                        </p>
+                    </div>
+                    
 
                     <div class="trades-content">
-                        <div>
+
                             <table class="table-trade">
                                 <thead>
                                     <tr>
@@ -60,7 +63,7 @@
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
+
                     </div>
 
                     <div class="trade-status" :class="getTradeStatusClass(trade.status)">
@@ -223,8 +226,11 @@ export default {
     margin-top: 1rem;
 }
 
-button{
-    margin-right: 0.5rem;
+
+.title{
+    width: 100%;
+    height: 20%;
+    margin-bottom: 1rem;
 }
 
 .content-trade{
@@ -240,6 +246,8 @@ button{
 .trade-card{
     width: 400px;
     height: 400px;
+    min-height: 400px;
+    min-height: 400px;
     max-width: 400px;
     max-height: 400px;
     border: 1px solid var(--text-color);
@@ -253,7 +261,7 @@ button{
 
 .trades-content{
     width: 100%;
-    max-height: 62%;
+    height: 60%;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
@@ -272,7 +280,6 @@ button{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0.4rem;
 }
 
 .trade-status{
@@ -284,9 +291,15 @@ button{
     padding: 1rem;
 }
 
-.trade-actions button {
-    margin-top: 0.5rem;
-    padding: 0.5rem;
+.trade-actions {
+    margin: auto;
+    display: flex;
+    width: 80%;
+}
+
+
+button{
+   margin-top: 0.4rem;
 }
 
 .status-green {
@@ -309,16 +322,21 @@ p{
 }
 
 table {
-  width: 380px;
-  height: 300px;
-  max-width: 380px;
-  max-height: 380px;
+  width: 100%;
+  height: 50%;
   border-collapse: collapse;
 }
 
 
 
-th, td {
+th {
+  border: 1px solid black;
+  padding: 0.5rem;
+  text-align: left;
+  text-align: center;
+}
+
+td{
   border: 1px solid black;
   padding: 0.5rem;
   text-align: left;
